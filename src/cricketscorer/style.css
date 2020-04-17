@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2019, 8:53:50 PM
+    Author     : Vishist
+*/
+
+
+#teamNames{
+    -fx-padding: 5pt;
+    -fx-text-fill: red;
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+    -fx-background-color: #b0c4de;
+}
+
+#lineupsInfo{
+    -fx-text-fill: white;
+    -fx-font-size: 14pt;
+    -fx-padding: 5pt;
+    -fx-background-color: #6495ed;
+}
+
+#lineupsInfo1{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14pt;
+    -fx-padding: 5pt;
+    -fx-background-color: #e37546;
+}
+
+#tabTitle{
+    -fx-font-size: 14pt;
+}
+
+#score, #targetLabel{
+    -fx-font-family: "Abel";
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-padding: 5pt;
+    -fx-background-color: #00fa9a;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+#overs, #scoresFieldOvers, #scoresFieldRR, #scoresFieldProjected, #scoresFieldExtras, #secInningsInfo{
+    -fx-font-size: 16pt;
+}
+
+#overBalls{
+    -fx-padding: 5pt;
+    -fx-font-size: 20pt;
+    -fx-background-color: white;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+
+#inningsInfo, #runChase, #reqRun, #overProgress, #BowlerName{
+    -fx-font-size: 16pt;
+    -fx-padding: 5pt;
+    -fx-background-color: #dcdcdc;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+#matchWinNotice{
+    -fx-font-size: 28pt;
+    -fx-font-weight: bold;
+    -fx-padding: 5pt;
+    -fx-background-color: #dcdcdc;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+
+#scorePane{
+    -fx-background-color: #4682b4;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}
+
+#batsmenPane{
+    -fx-background-color: #008b8b;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}
+
+#batsman1, #batsman2{
+    -fx-text-fill: #262b33;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-background-color: #e0ffff;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+#batsman1Score,#batsman2Score{
+    -fx-font-size: 16pt;
+    -fx-padding: 10pt;
+    -fx-background-color: #87cefa;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+#bowler{
+    -fx-text-fill: #262b33;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-background-color: #e0ffff;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+#bowlerScore{
+    -fx-font-size: 16pt;
+}
+
+#chasePane{
+    -fx-background-color: #4682b4;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}
+
+#updatePane{
+    -fx-background-color: #88b8ba;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}
+
+#1stBat, #1stBowl, #2ndBat, #2ndBowl, #1stBatTotal,#2ndBatFOW, #1stBowlExtras, #2ndBatTotal, #2ndBowlExtras{
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+}
+
+#homeBatLabel{
+    -fx-font-size: 18pt;
+}
+
+#1stBatScore, #1stBowlScore, #2ndBatScore, #2ndBowlScore{
+    -fx-font-family: monospaced;
+}
+
+#boundaryPane{
+    -fx-background-color: #20ba91;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-font-size: 22pt;
+}
+
+#partnershipPane{
+    -fx-background-color: #20ba91;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-font-size: 22pt;
+}
+
+#battingNumbers .scroll-bar:vertical, #battingNumbers2.scroll-bar:vertical, #battingNumbers3.scroll-bar:vertical, #battingNumbers4 .scroll-bar:vertical{
+    -fx-scale-x: 0;
+    -fx-scale-y: 0;
+}

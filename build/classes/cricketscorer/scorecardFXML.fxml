@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="709.0" prefWidth="1302.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cricketscorer.FXMLDocumentController">
+   <children>
+  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <TabPane layoutY="52.0" prefHeight="630.0" prefWidth="1301.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                  <Tab text="1st Innings">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ListView id="1stBatScore" layoutX="9.0" layoutY="110.0" prefHeight="360.0" prefWidth="725.0" style="-fx-font-weight: bold;" />
+                              <Pane layoutX="746.0" prefHeight="609.0" prefWidth="557.0" style="-fx-background-color: lightgray;">
+                                 <children>
+                                    <Label id="1stBowl" alignment="CENTER" layoutX="108.0" layoutY="7.0" prefHeight="47.0" prefWidth="414.0" text="Bowling" />
+                                    <Label id="homeBatLabel" layoutX="11.0" layoutY="61.0" prefHeight="35.0" prefWidth="531.0" style="-fx-background-color: azure;" text=" Bowler                      O      M    R      W    Eco  Ext" />
+                                    <ListView id="1stBowlScore" layoutX="11.0" layoutY="106.0" prefHeight="360.0" prefWidth="532.0" style="-fx-font-weight: bold;" />
+                                    <Label id="1stBowlExtras" alignment="CENTER" layoutX="410.0" layoutY="480.0" prefHeight="47.0" prefWidth="133.0" text="Extras" />
+                                    <Label layoutX="370.0" layoutY="570.0" text="©  Vishist Singh Dura 2020" />
+                                 </children>
+                              </Pane>
+                              <Label id="1stBat" alignment="CENTER" layoutX="149.0" layoutY="7.0" prefHeight="47.0" prefWidth="414.0" text="Batting" />
+                              <Label id="homeBatLabel" layoutX="9.0" layoutY="61.0" prefHeight="35.0" prefWidth="727.0" style="-fx-background-color: azure;" text=" Batsman                                                                    R     4    6    SR" />
+                              <Label id="1stBatTotal" alignment="CENTER" layoutX="300.0" layoutY="470.0" prefHeight="50.0" prefWidth="400.0" text="Total " />
+                              <Label id="2ndBatFOW" alignment="CENTER" layoutY="470.0" prefHeight="50.0" prefWidth="82.0" text="FOW" />
+                              <Label id="1stBatWickets" layoutX="10.0" layoutY="514.0" prefHeight="37.0" prefWidth="899.0" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="2nd Innings">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ListView id="2ndBatScore" layoutX="9.0" layoutY="110.0" prefHeight="360.0" prefWidth="725.0" style="-fx-font-weight: bold;" />
+                              <Pane layoutX="746.0" prefHeight="609.0" prefWidth="557.0" style="-fx-background-color: lightgray;">
+                                 <children>
+                                    <Label id="2ndBowl" alignment="CENTER" layoutX="108.0" layoutY="7.0" prefHeight="47.0" prefWidth="414.0" text="Bowling" />
+                                    <Label id="homeBatLabel" layoutX="11.0" layoutY="61.0" prefHeight="35.0" prefWidth="531.0" style="-fx-background-color: azure;" text=" Bowler                      O      M    R      W    Eco  Ext" />
+                                    <ListView id="2ndBowlScore" layoutX="11.0" layoutY="106.0" prefHeight="360.0" prefWidth="532.0" style="-fx-font-weight: bold;" />
+                                    <Label id="2ndBowlExtras" alignment="CENTER" layoutX="410.0" layoutY="480.0" prefHeight="47.0" prefWidth="133.0" text="Extras" />
+                                    <Label layoutX="370.0" layoutY="570.0" text="©  Vishist Singh Dura 2020" />
+                                 </children>
+                              </Pane>
+                              <Label id="2ndBat" alignment="CENTER" layoutX="149.0" layoutY="7.0" prefHeight="47.0" prefWidth="414.0" text="Batting" />
+                              <Label id="homeBatLabel" layoutX="9.0" layoutY="61.0" prefHeight="35.0" prefWidth="727.0" style="-fx-background-color: azure;" text=" Batsman                                                                    R     4    6    SR" />
+                              <Label id="2ndBatTotal" alignment="CENTER" layoutX="300.0" layoutY="470.0" prefHeight="50.0" prefWidth="400.0" text="Total " />
+                              <Label id="2ndBatWickets" layoutX="10.0" layoutY="514.0" prefHeight="37.0" prefWidth="899.0" />
+                              <Label id="2ndBatFOW" alignment="CENTER" layoutY="470.0" prefHeight="50.0" prefWidth="82.0" text="FOW" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+      <Label id="teamNames" contentDisplay="CENTER" prefHeight="47.0" prefWidth="1301.0" stylesheets="@style.css" text="CRICKET SCORER BY VISHIST" textAlignment="CENTER">
+         <effect>
+            <Reflection fraction="0.18" />
+         </effect></Label>
+      <Label id="locationDate" alignment="CENTER_RIGHT" layoutX="920.0" layoutY="14.0" prefHeight="0.0" prefWidth="370.0" />
+   </children>
+</AnchorPane>
